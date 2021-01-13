@@ -1,0 +1,6 @@
+DB_NAME = db_name
+DB_USERNAME = db_username
+DB_PASSWORD = db_password
+
+//se deben reemplazar despues de los = los valores de configuración e workbrench
+//luego cambiar el nombre del archivo, eliminando la palabra example
