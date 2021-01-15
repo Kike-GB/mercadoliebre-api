@@ -43,7 +43,7 @@ app.use(helpersMiddleware);
 const mainRouter = require('./routes/mainRouter'); // Rutas main
 const productsRouter = require('./routes/productsRouter'); // Rutas /products
 const usersRouter = require('./routes/usersRouter'); // Rutas /user
-const apiProductsRouter = require('./routes/api/productsRouter.js'); // Rutas /api
+const apiProductsRouter = require('./routes/api/productsRouter'); // Rutas /api
 
 app.use('/', mainRouter);
 app.use('/products', productsRouter);
