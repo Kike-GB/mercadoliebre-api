@@ -10,7 +10,7 @@ module.exports = (sequelize, DataTypes) => {
     brandId: DataTypes.INTEGER,
     categoryId: DataTypes.INTEGER,
     userId: DataTypes.INTEGER,
-    
+     
   },
   {
     tableName: 'products'
